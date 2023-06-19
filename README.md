@@ -1,2 +1,2 @@
 # AndroidProjects
-Projetos experimentais em java para Android
+Projetos Android desenvolvidos em Java
