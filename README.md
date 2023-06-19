@@ -1,5 +1,5 @@
 # AndroidProjects
-Projetos práticos de apps Android, desenvolvidos em Java, para as aulas de Desenvolvimento Android.
+Projetos práticos de apps desenvolvidos em Java para as aulas de Desenvolvimento Android.
 
 Curso Desenvolvimento Android do Jamilton Damasceno:
 https://www.udemy.com/course/curso-de-desenvolvimento-android-oreo/learn/lecture/8077892#overview
