@@ -17,7 +17,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void selecinadaImgOpcao(View view) {
+    public void imgOpcaoSelecionada(View view) {
+
+        //recupera qual imagem foi selecionada pelo usuário
         int id = view.getId();
         ImageView imgOpcao = findViewById(id);
         String opcao = imgOpcao.getTag().toString();
@@ -31,11 +33,13 @@ public class MainActivity extends AppCompatActivity {
         ImageView imgResultado = findViewById(R.id.imgResultado);
         TextView textResultado = findViewById(R.id.textResultado);
 
+        //gera a escolha aleatória do App
         String[] opcoes = {"pedra", "papel", "tesoura"};
         int numero = new Random().nextInt(3);
 
         String escolhaApp = opcoes[numero];
 
+        //exibe a imagem escolhida pelo App
         switch (escolhaApp) {
             case "pedra":
                 imgResultado.setImageResource(R.drawable.pedra);
