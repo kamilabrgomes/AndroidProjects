@@ -61,14 +61,14 @@ public class MainActivity extends AppCompatActivity {
                 (escolhaApp.equals("tesoura") && escolhaUsuario.equals("papel")) ||
                 (escolhaApp.equals("papel") && escolhaUsuario.equals("pedra")) ||
                 (escolhaApp.equals("pedra") && escolhaUsuario.equals("tesoura"))
-        ){//App ganhador
+        ){//App é ganhador
             textResultado.setText("Você perdeu!");
 
         }else if(
                 (escolhaUsuario.equals("tesoura") && escolhaApp.equals("papel")) ||
                 (escolhaUsuario.equals("papel") && escolhaApp.equals("pedra")) ||
                 (escolhaUsuario.equals("pedra") && escolhaApp.equals("tesoura"))
-        ){//Usuário ganhador
+        ){//Usuário é ganhador
             textResultado.setText("Você ganhou!");
 
         }else{
