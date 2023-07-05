@@ -4,4 +4,6 @@
     <string name="menu_volume">Volume</string>
     <string name="menu_avaliacoes">Avaliações</string>
     <string name="menu_episodios">Episódios</string>
+    <string name="tempoTotal">42:20</string>
+    <string name="tempoDecorrido">01:30</string>
 </resources>

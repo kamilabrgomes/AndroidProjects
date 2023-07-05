@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 Exercício para praticar a criação de layouts usando:
+
 ConstraintLayouts
 Cores padrão do app ( primaryColor, backgroundColor)
 Uso de recursos, como imagens e ícones
@@ -19,7 +20,7 @@ No final, temos o layout da tela de exibição de vídeo, semelhante ao Netflix
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:background="@color/fundo_app"
         tools:context=".MainActivity">
 
@@ -28,7 +29,7 @@ No final, temos o layout da tela de exibição de vídeo, semelhante ao Netflix
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="42:20"
+            android:text="@string/tempoTotal"
             android:textColor="@android:color/darker_gray"
             app:layout_constraintEnd_toStartOf="@+id/guideline5"
             app:layout_constraintTop_toBottomOf="@+id/imageView5" />
@@ -38,7 +39,7 @@ No final, temos o layout da tela de exibição de vídeo, semelhante ao Netflix
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="01:30"
+            android:text="@string/tempoDecorrido"
             android:textColor="@android:color/darker_gray"
             app:layout_constraintStart_toStartOf="@+id/guideline4"
             app:layout_constraintTop_toBottomOf="@+id/imageView5" />
